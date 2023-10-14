@@ -1,3 +1,28 @@
+:root {
+  --flexui-disabled-color: #9a9da1;
+  --flexui-font-weight-normal: 400;
+}
+
 .recharge-theme {
   --recharge-typography-heading-font-family: var(--FONT-STACK-HEADING);
+}
+
+.recharge-theme .recharge-button-primary {
+  font-weight: var(--flexui-font-weight-normal);
+}
+
+.recharge-theme .recharge-modal-wrapper .recharge-button-primary:disabled {
+  color: var(--flexui-disabled-color);
+}
+
+.recharge-theme .recharge-component-subscription-form .recharge-button-primary:disabled {
+  color: var(--flexui-disabled-color);
+}
+
+.recharge-theme .recharge-section-addresses-item .recharge-button-secondary:disabled {
+  color: var(--flexui-disabled-color);
+}
+
+.recharge-theme .recharge-section-payment-item .recharge-button-disabled {
+  color: var(--flexui-disabled-color);
 }
