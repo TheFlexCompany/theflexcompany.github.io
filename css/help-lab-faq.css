@@ -1,0 +1,17 @@
+.faqPlusAppFaq {
+  scroll-margin-top: 72px;
+}
+
+#easy-faq-app-top-section {
+  background-image: none !important;
+  height: min-content;
+}
+
+#easy-faq-app-header span {
+  font-weight: normal;
+}
+
+.introTextFaqPlus p {
+  font-size: calc(1.6rem * var(--adjust-body));
+  text-wrap: balance;
+}
